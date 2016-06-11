@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 public class ApplicationSetup {
 
 	private List<String> keys = new ArrayList<String>();
+	private Long throttlePeriod;
+	private Integer workspaceLimit;
 
 	public List<String> getKeys() {
 		return keys;
@@ -18,6 +20,22 @@ public class ApplicationSetup {
 
 	public void setKeys(List<String> keys) {
 		this.keys = keys;
+	}
+
+	public Long getThrottlePeriod() {
+		return throttlePeriod;
+	}
+
+	public void setThrottlePeriod(Long throttlePeriod) {
+		this.throttlePeriod = throttlePeriod;
+	}
+
+	public Integer getWorkspaceLimit() {
+		return workspaceLimit;
+	}
+
+	public void setWorkspaceLimit(Integer workspaceLimit) {
+		this.workspaceLimit = workspaceLimit;
 	}
 
 }

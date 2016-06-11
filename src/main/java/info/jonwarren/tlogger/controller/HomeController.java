@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController extends TloggerController {
+	
+	public HomeController() {
+		super();
+	}
 
 	@RequestMapping("/")
 	public String home(Model model) {
