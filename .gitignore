@@ -1,4 +1,4 @@
-api-keys.properties
+application.yml
 .classpath
 .project
 .settings
