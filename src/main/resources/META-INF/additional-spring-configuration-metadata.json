@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "toggl.keys",
+    "type": "java.util.List",
+    "description": "List of API keys for toggl.com"
+  },
+  {
+    "name": "toggl.throttle-period",
+    "type": "java.lang.String",
+    "description": "Throttle-period for connecting to toggl.com"
+  },
+  {
+    "name": "toggl.workspace-limit",
+    "type": "java.lang.String",
+    "description": "Limit the number of workspaces per key to this value"
+  },
+  {
+    "name": "database.username",
+    "type": "java.lang.String",
+    "description": "username for the tasklogs database"
+  },
+  {
+    "name": "database.password",
+    "type": "java.lang.String",
+    "description": "password for the tasklogs database"
+  }
+]}
