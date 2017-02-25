@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "toggl")
+@ConfigurationProperties(prefix = "dev.toggl")
 public class ApplicationSetup {
 
 	private List<String> keys = new ArrayList<String>();
